@@ -5,7 +5,7 @@ class Podracer:
   def __init__(self, max_speed, condition, price):
     # self - a parameter that reference to the current instance of the class (in this one the class is Podracer), and used to access variables that belongs to the class
     self.max_speed = max_speed
-    self.condition = condition
+    self.condition = 'mint'
     self.price = price
 
     # define a repair method that will update the condition of the podracer to "repaired"
